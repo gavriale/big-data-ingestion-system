@@ -1,0 +1,16 @@
+﻿# Ignore Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore other temporary files
+*.log
+*.vsidx
+
+# Ignore library files
+wwwroot/lib/
