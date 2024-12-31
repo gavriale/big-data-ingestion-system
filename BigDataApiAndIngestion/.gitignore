@@ -13,4 +13,3 @@ obj/
 *.vsidx
 
 # Ignore library files
-wwwroot/lib/

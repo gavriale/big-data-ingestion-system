@@ -1,4 +1,4 @@
-namespace BigDataApiAndIngestion.Services.StockAPI.Models
+namespace BigDataApiAndIngestion.Models
 {
     public class ErrorViewModel
     {

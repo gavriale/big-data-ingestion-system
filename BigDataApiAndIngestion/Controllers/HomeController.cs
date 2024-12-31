@@ -2,7 +2,7 @@ using System.Diagnostics;
 using BigDataApiAndIngestion.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BigDataApiAndIngestion.Services.StockAPI.Controllers
+namespace BigDataApiAndIngestion.Controllers
 {
     public class HomeController : Controller
     {

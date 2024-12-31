@@ -1,6 +1,10 @@
-﻿namespace BigDataApiAndIngestion.Services.IngestionService.Strategies
+﻿
+using Confluent.Kafka;
+
+namespace BigDataApiAndIngestion.Services.IngestionService.Strategies
 {
-    public class IMessageProcessor
+    public interface IMessageProcessor<TValue>
     {
+        Task ProcessAsync(Message<string, TValue> message);
     }
 }
